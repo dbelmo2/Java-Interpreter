@@ -9,9 +9,12 @@ Interpreter with object-oriented concepts. Interpreter can evaluate the followin
 This expression is very similar to the LetExpression seen in class.
   o A class is defined by its name, an array of fields, and an array of methods. A class may have
     a superclass.
+    
   o A field is defined by its name and initializer expression, that evaluates to the initial value of
     the field.
+    
   o A method is defined by its name, the name of its arguments, and its body.
+  
   o Expressions in the body can refer to the class introduced by the ClassDefExpression.
 
 • NewExpression: Creates a new instance of a known class, by using the name of the class.
